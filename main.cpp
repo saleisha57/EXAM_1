@@ -8,6 +8,9 @@ I affirm that all the code given below was written solely by me, Aleisha Smith, 
 
 int main()
 {
+	//PT -- You are close on this. Why did you change my code? Part of the goal was to see virtual methods working.
+	//PT -- In the code commented out, you simply needed Garage[0] = new RaceCar("Red"), and it would've worked.
+	//PT -- -20
   RaceCar fast("Red");
   Sedan car("Purple", 7);
   Pickup truck("Blue", 700);
