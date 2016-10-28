@@ -13,9 +13,13 @@ class Pickup : public Vehicle
 
  Pickup(string color, int capacity) : Vehicle(color) 
   {
+  //PT -- since you're calling Vehicle, and Vehicle owns _color, there's no need to set it here.
+  //      Let the base constructor handle _color as it sees fit.
     _color = color;
     hauling_capacity = capacity;
     _topspeed = 85;
+    //PT -- Push four wheels onto the vector rather than just one.
+    //PT -- -3
     wheels.push_back(432);
   };
   
